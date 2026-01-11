@@ -6,7 +6,7 @@ const Settings =
     [ // Tags
         "C#",
         "Java",
-        "C (Not very well)",
+        "C (weak)",
         "English",
         "Chinese",
     ]
