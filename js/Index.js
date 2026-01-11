@@ -7,6 +7,7 @@ Settings[2].forEach(text => {
     var e = createTagElement(text);
     tags.appendChild(e)
 });
+document.title = Settings[3]
 
 function createTagElement(text){
     var decorator = document.createElement("div");

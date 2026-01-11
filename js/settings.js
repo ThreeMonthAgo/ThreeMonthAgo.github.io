@@ -9,5 +9,6 @@ const Settings =
         "C (weak)",
         "English",
         "Chinese",
-    ]
+    ],
+    "ThreeMonthAgo's Blog" // title
 ];
