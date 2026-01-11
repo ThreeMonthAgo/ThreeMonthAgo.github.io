@@ -1,0 +1,16 @@
+body{
+    background-color: #FAF5E4;
+    padding: 10px 10px 10px 10px;
+}
+
+.MainGrid{
+    margin: auto;
+    padding: 10px;
+    align-self: center;
+    background-color: aliceblue;
+    max-width: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #AA8A2E;
+}

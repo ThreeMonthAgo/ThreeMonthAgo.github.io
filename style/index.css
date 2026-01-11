@@ -1,0 +1,33 @@
+#Head{
+    columns: 256px auto;
+}
+
+#Desc{
+    margin: 10px 0px 10px 10px;
+}
+
+#Avatar{
+    max-height: 256px;
+}
+
+#Tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Name{
+    text-align: left;
+    margin: 0;
+}
+
+.TagDecorator{
+    min-width: 30px;
+    margin: 2px 4px;
+    padding: 2px 4px;
+    background-color: rgb(246, 181, 255);
+    text-align: center;
+}
+
+.TagContent{
+    margin: 0;
+}
