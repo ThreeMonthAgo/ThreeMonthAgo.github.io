@@ -13,15 +13,6 @@ const Settings =
     "ThreeMonthAgo's Blog" // title
 ];
 
-// Set the style of zero-md
-window.ZeroMd = {
-    config: {
-        cssUrls: [
-            'style/zeromdStyle.css'
-        ]
-    }
-};
-
 // set icon
 const link = document.createElement('link');
 link.rel = 'icon';
