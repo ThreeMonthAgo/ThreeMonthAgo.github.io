@@ -1,3 +1,7 @@
+*{
+    user-select: none;
+}
+
 body{
     background-color: #FAF5E4;
     padding: 10px 10px 10px 10px;
@@ -7,7 +11,6 @@ body{
     margin: auto;
     padding: 10px;
     align-self: center;
-    background-color: aliceblue;
     max-width: 1000px;
 }
 
