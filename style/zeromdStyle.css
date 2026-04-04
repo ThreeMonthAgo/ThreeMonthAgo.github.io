@@ -3,10 +3,23 @@ h1, h2, h3, h4, h5, h6{
     color: #AA8A2E;
 }
 
+h1{
+    font-style: italic;
+}
+
+strong{
+    font-weight: bolder;
+}
+
 p{
     color: #6B7A82;
 }
 
 a{
-    color: #D4A62E;
+    color: #be9c34;
+    text-decoration-style: wavy;
+}
+
+a:hover{
+    opacity: 0.85;
 }

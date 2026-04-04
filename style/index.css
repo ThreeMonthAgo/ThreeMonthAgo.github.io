@@ -8,6 +8,7 @@
 
 #Avatar{
     max-height: 256px;
+    mask-image: linear-gradient(75deg, #000 40%, transparent 80%);
 }
 
 #Tags{
