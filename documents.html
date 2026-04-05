@@ -2,34 +2,27 @@
 <head>
     <title>This is title</title><!-- auto replace by javascript -->
     <link rel="stylesheet" href="style/globalStyle.css"/>
-    <link rel="stylesheet" href="style/index.css"/>
 </head>
 <body>
     <div class="MainGrid">
         <div id="Head">
-            <img id="Avatar" draggable="false">
-            <div id="Desc">
-                <h1 id="Name" style="font-family: cursive;"></h1>
-                <p>Tags:</p>
-                <div id="Tags"></div>
-            </div>
+            <a href="./index.html" style="background-color: bisque; text-decoration: none;">
+                &lt;= go back
+            </a>
+            <p id="Reading"></p>
         </div>
         <!-- Content -->
         <hr/>
-        <zero-md src="./doc/index.md">
+        <zero-md id="Viewer">
             <template>
                 <link rel="stylesheet" href="style/zeromdStyle.css">
             </template>
         </zero-md>
-    </div>
-    <div class="MainGrid">
-        <div id="ViewMore">
-            
-        </div>
+        <a id="FooterTitle" style="text-decoration: none;" href="./index.html"></a>
     </div>
 </body>
 
 <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
 
 <script src="js/settings.js"></script>
-<script src="js/Index.js"></script>
+<script src="js/documents.js"></script>

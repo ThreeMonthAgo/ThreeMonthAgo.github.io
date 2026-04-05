@@ -7,6 +7,11 @@ body{
     padding: 10px 10px 10px 10px;
 }
 
+a{
+    color: #bda04b;
+    text-decoration-style: wavy;
+}
+
 .MainGrid{
     margin: auto;
     padding: 10px;
